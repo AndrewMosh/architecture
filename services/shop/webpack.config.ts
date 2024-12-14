@@ -5,7 +5,7 @@ import {
     BuildPaths,
     BuildPlatform,
     buildWebpack,
-} from '@packages/build-config';
+} from '@packages/build_config';
 import packageJson from './package.json';
 
 interface EnvVariables {

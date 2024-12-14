@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WebpackDevServer from 'webpack-dev-server';
 import type { Configuration as DevServerConfiguration } from 'webpack-dev-server';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import { BuildPaths, BuildMode, buildWebpack } from '@packages/build-config';
+import { BuildPaths, BuildMode, buildWebpack } from '@packages/build_config';
 import packageJson from './package.json';
 
 interface envVariables {

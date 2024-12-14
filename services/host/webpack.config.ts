@@ -1,6 +1,6 @@
 import path from 'path';
 import webpack from 'webpack';
-import {BuildMode, BuildPaths, BuildPlatform, buildWebpack, BuildOptions} from '@packages/build-config'
+import {BuildMode, BuildPaths, BuildPlatform, buildWebpack, BuildOptions} from '@packages/build_config'
 import packageJson from './package.json'
 
 interface EnvVariables {

@@ -1,0 +1,30 @@
+.appHeader {
+  background-color:rgb(244, 204, 204);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.countButton {
+  background-color: #c6bcbc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
